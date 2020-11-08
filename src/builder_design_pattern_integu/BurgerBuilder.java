@@ -6,7 +6,7 @@
 package builder_design_pattern_integu;
 
 /**
- * @author fluxmeister
+ * Builder
  *
  */
 public abstract class BurgerBuilder {

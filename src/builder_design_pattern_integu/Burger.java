@@ -6,7 +6,7 @@
 package builder_design_pattern_integu;
 
 /**
- * @author fluxmeister
+ * Object
  *
  */
 public class Burger {
@@ -38,7 +38,7 @@ public class Burger {
 	}
 
 	public void print() {
-		System.out.println("Burger is finished! " + "n" + "Bun: " + bun + " - Meat: " + meat + " - Cheese: " + cheese
-				+ " - Salad: " + salad + " - Sauce: " + sauce);
+		System.out.println("Burger is finished! " + "\n - Bun: " + bun + "\n - Meat: " + meat + "\n - Cheese: " + cheese
+				+ "\n - Salad: " + salad + "\n - Sauce: " + sauce);
 	}
 }

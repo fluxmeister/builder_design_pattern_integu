@@ -6,10 +6,10 @@
 package builder_design_pattern_integu;
 
 /**
- * @author fluxmeister
+ * Director
  *
  */
-public class BurgerResuturant {
+public class BurgerRestaurant {
 
 	private BurgerBuilder burgerBuilder;
 

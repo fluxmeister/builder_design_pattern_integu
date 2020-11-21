@@ -6,8 +6,11 @@
 package builder_design_pattern_integu;
 
 /**
- * Director
- *
+ * Director class *
+ * The director’s job is to invoke the building process of the builder.
+ * The director will ensure that we build the correct object based on which builder we provide it with.
+ * This is because inside the director, we set its builder object field (setBuilder-method) 
+ * and afterwards ask it to build the object based on the provided builder (build-method).
  */
 public class BurgerRestaurant {
 

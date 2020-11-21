@@ -6,7 +6,13 @@
 package builder_design_pattern_integu;
 
 /**
- * Builder
+ * Builder super class *
+ * The builder’s job is to manage the different building procedures 
+ * associated with each of the different variations of objects.
+ * 
+ * The builder pattern consists of two classes, a sub- and super class.
+ * The different builder class all have different variations of the elements which an object consists of.
+ * But when it comes to everything else, they are all alike since they extend the same super class.
  *
  */
 public abstract class BurgerBuilder {

@@ -6,7 +6,7 @@
 package builder_design_pattern_integu;
 
 /**
- * Object
+ * Object Class *
  *
  */
 public class Burger {

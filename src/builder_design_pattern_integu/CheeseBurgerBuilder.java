@@ -6,7 +6,9 @@
 package builder_design_pattern_integu;
 
 /**
- * Builder
+ * Builder sub class *
+ * The different builder class all have different variations of the elements which an object consists of.
+ * But when it comes to everything else, they are all alike since they extend the same super class.
  *
  */
 public class CheeseBurgerBuilder extends BurgerBuilder {

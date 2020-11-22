@@ -16,6 +16,9 @@ public class BurgerRestaurant {
 
 	private BurgerBuilder burgerBuilder;
 
+	/* inside the director, we set its builder object field (setBuilder-method) and afterwards ask it 
+	 * to build the object based on the provided builder (build-method).
+	 */
 	public void setBuilder(BurgerBuilder burgerBuilder) {
 		this.burgerBuilder = burgerBuilder;
 	}

@@ -15,21 +15,21 @@ package builder_design_pattern_integu;
  * But when it comes to everything else, they are all alike since they extend the same super class.
  *
  */
-public abstract class BurgerBuilder {
-	
-	Burger burger = new Burger();
-
-	abstract void buildBun();
-
-	abstract void buildMeat();
-
-	abstract void buildSalad();
-
-	abstract void buildCheese();
-
-	abstract void buildSauce();
-
-	Burger build() {
-		return burger;
-	};
-}
+//public abstract class BurgerBuilder {
+//	
+//	Burger burger = new Burger();
+//
+//	abstract void buildBun();
+//
+//	abstract void buildMeat();
+//
+//	abstract void buildSalad();
+//
+//	abstract void buildCheese();
+//
+//	abstract void buildSauce();
+//
+//	Burger build() {
+//		return burger;
+//	};
+//}

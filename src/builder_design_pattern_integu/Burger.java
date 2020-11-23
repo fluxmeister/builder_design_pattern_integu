@@ -71,7 +71,7 @@ public class Burger {
 	 * The different builder class all have different variations of the elements which an object consists of.
 	 * But when it comes to everything else, they are all alike since they extend the same super class.
 	 */
-	public static class BurgerBuilder {
+	public static abstract class BurgerBuilder {
 		// Java Builder class should have a public constructor with all the required attributes as parameters.
 		/* Java Builder class should have methods to set the optional parameters and it should 
 		return the same Builder object after setting the optional attribute. */
@@ -89,7 +89,21 @@ public class Burger {
 			this.sauce = sauce;
 		}
 		
-		public BurgerBuilder buildBun
+		Burger burger = new Burger();
+		
+			abstract void buildBun();
+		
+			abstract void buildMeat();
+		
+			abstract void buildSalad();
+		
+			abstract void buildCheese();
+		
+			abstract void buildSauce();
+		
+			Burger build() {
+				return burger;
+			};
 		
 		
 		
